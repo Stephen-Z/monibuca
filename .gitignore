@@ -13,3 +13,7 @@ dist/
 record/
 config2.yaml
 config1.yaml
+
+webplugin/static
+*/.DS_Store
+.DS_Store
