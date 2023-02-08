@@ -17,3 +17,5 @@ config1.yaml
 webplugin/static
 */.DS_Store
 .DS_Store
+bailibuca_v*
+monibuca_v*
