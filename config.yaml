@@ -4,13 +4,13 @@
 # 插件配置参考各个插件的文档
 # 插件都有一个enable配置，如果为false则不启用该插件，默认为true即不需要配置。
 
-# global:
-#   console:
-#     secret: "ab0f6913670062af4d2f15c621205178"
-  # http:
-  #   listenaddrtls: :8081
-  #   certfile: local.monibuca.com_bundle.pem
-  #   keyfile: local.monibuca.com.key
+global:
+  console:
+    secret: "5118d502b4bc242cce2a04d4dc9f9560"
+  http:
+    listenaddrtls: :8081
+  #   certfile: monibuca.com.pem
+  #   keyfile: monibuca.com.key
 # record:
 #   enable: false
 #   hls:

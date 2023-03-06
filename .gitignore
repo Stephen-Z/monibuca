@@ -20,3 +20,9 @@ ps3
 devices.json
 dump
 .DS_Store
+
+webplugin/static
+*/.DS_Store
+.DS_Store
+bailibuca_v*
+monibuca_v*
