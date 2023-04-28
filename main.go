@@ -21,12 +21,15 @@ import (
 	"m7s.live/engine/v4"
 	"m7s.live/engine/v4/util"
 
-	_ "monibuca/webPlugin"
+	_ "monibuca/webplugin"
 
 	_ "m7s.live/plugin/debug/v4"
 	_ "m7s.live/plugin/edge/v4"
 	_ "m7s.live/plugin/fmp4/v4"
+
 	_ "m7s.live/plugin/gb28181/v4"
+	// _ "monibuca/plugin/gb28181"
+
 	_ "m7s.live/plugin/hdl/v4"
 	_ "m7s.live/plugin/hls/v4"
 	_ "m7s.live/plugin/hook/v4"
@@ -36,7 +39,11 @@ import (
 	_ "m7s.live/plugin/record/v4"
 	_ "m7s.live/plugin/room/v4"
 	_ "m7s.live/plugin/rtmp/v4"
-	_ "m7s.live/plugin/rtsp/v4"
+
+	// _ "m7s.live/plugin/rtsp/v4"
+	// _ "github.com/Stephen-Z/plugin-rtsp/v4"
+	_ "monibuca/plugin/rtsp"
+
 	_ "m7s.live/plugin/snap/v4"
 	_ "m7s.live/plugin/webrtc/v4"
 	_ "m7s.live/plugin/webtransport/v4"

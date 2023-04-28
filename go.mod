@@ -24,6 +24,7 @@ require (
 )
 
 require (
+	github.com/Stephen-Z/plugin-rtsp/v4 v4.1.4 // indirect
 	github.com/aler9/gortsplib/v2 v2.1.0 // indirect
 	github.com/cnotch/ipchub v1.1.0 // indirect
 	github.com/discoviking/fsm v0.0.0-20150126104936-f4a273feecca // indirect

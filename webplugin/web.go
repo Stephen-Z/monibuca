@@ -16,6 +16,7 @@ func (p *WebPluginConfig) OnEvent(event any) {
 	switch event.(type) {
 	case FirstConfig:
 		{
+			// plugin.Info("Web plugin First Config")
 			// p.HandleFunc("/", http.FileServer(http.Dir("./static")).ServeHTTP)
 		} //插件初始化逻辑
 
