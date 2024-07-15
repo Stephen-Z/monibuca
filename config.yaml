@@ -4,7 +4,55 @@
 # 插件配置参考各个插件的文档
 # 插件都有一个enable配置，如果为false则不启用该插件，默认为true即不需要配置。
 
-hls:
-  enable: false
 monitor:
   enable: false
+global:
+  # console:
+  #   secret: "5118d502b4bc242cce2a04d4dc9f9560"
+  publish:
+    delayclosetimeout: 5s
+  http:
+    listenaddrtls: :8081
+  #   certfile: monibuca.com.pem
+  #   keyfile: monibuca.com.key
+# record:
+#   enable: false
+#   hls:
+#     autorecord: true
+#     fragment: 20s
+# webtransport:
+#   enable: false
+#   certfile: local.monibuca.com_bundle.pem
+#   keyfile: local.monibuca.com.key
+# gb28181:
+#   # enable: false
+gb28181:
+  enable: true
+  sipip: "192.168.0.110"
+  # sipnetwork: udp
+  sipport: 15063
+  mediaport: 58200
+  autoinvite: true
+rtsp:
+  enable: true
+  publish:
+    delayclosetimeout: 5s
+  pull:
+    repull: -1
+    pullonstart: {
+      34020000001320000005/34020000001320000003: rtsp://admin:Admin@123@cimtech.cn:31133/Streaming/Channels/101
+    }
+    pullonsub: {
+      34020000001320000005/34020000001320000003: rtsp://admin:Admin@123@cimtech.cn:31133/Streaming/Channels/101
+    }
+# rtsp:
+#   # enable: false
+#   pull:
+#     pullonstart:
+#       live/rtsp: rtsp://admin:MOMA2021@47.94.226.17/Streaming/Channels/201?transportmode=unicast
+hls:
+  enable: false
+#   pull:
+#     pullonstart: true
+#     pulllist:
+#       live/hls: http://111.40.196.27/PLTV/88888888/224/3221225548/index.m3u8
