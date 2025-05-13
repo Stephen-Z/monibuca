@@ -3,9 +3,19 @@ module monibuca
 go 1.21
 
 require (
+	github.com/aler9/gortsplib/v2 v2.2.2
+	github.com/ghettovoice/gosip v0.0.0-20231227123312-6b80e2d3e6f7
+	github.com/husanpao/ip v0.0.0-20220711082147-73160bb611a8
+	github.com/logrusorgru/aurora v2.0.3+incompatible
+	github.com/pion/rtp v1.8.3
+	github.com/pion/rtp/v2 v2.0.0
 	go.uber.org/zap v1.27.0
+	golang.org/x/exp v0.0.0-20240314144324-c7f7c6466f7f
+	golang.org/x/net v0.22.0
+	golang.org/x/text v0.14.0
 	m7s.live/engine/v4 v4.15.2
 	m7s.live/plugin/debug/v4 v4.0.3
+	m7s.live/plugin/edge/v4 v4.0.6
 	m7s.live/plugin/fmp4/v4 v4.0.6
 	m7s.live/plugin/gb28181/v4 v4.4.5
 	m7s.live/plugin/hdl/v4 v4.1.11
@@ -32,7 +42,6 @@ require (
 	github.com/deepch/vdk v0.0.27 // indirect
 	github.com/denisbrodbeck/machineid v1.0.1 // indirect
 	github.com/discoviking/fsm v0.0.0-20150126104936-f4a273feecca // indirect
-	github.com/ghettovoice/gosip v0.0.0-20231227123312-6b80e2d3e6f7 // indirect
 	github.com/go-ole/go-ole v1.3.0 // indirect
 	github.com/go-task/slim-sprig v0.0.0-20230315185526-52ccab3ef572 // indirect
 	github.com/gobwas/httphead v0.1.0 // indirect
@@ -42,7 +51,6 @@ require (
 	github.com/google/pprof v0.0.0-20240227163752-401108e1b7e7 // indirect
 	github.com/google/uuid v1.6.0 // indirect
 	github.com/gorilla/websocket v1.5.1 // indirect
-	github.com/husanpao/ip v0.0.0-20220711082147-73160bb611a8 // indirect
 	github.com/logrusorgru/aurora/v4 v4.0.0 // indirect
 	github.com/lufia/plan9stats v0.0.0-20240226150601-1dcf7310316a // indirect
 	github.com/marten-seemann/qpack v0.3.0 // indirect
@@ -59,7 +67,6 @@ require (
 	github.com/pion/mdns v0.0.12 // indirect
 	github.com/pion/randutil v0.1.0 // indirect
 	github.com/pion/rtcp v1.2.14 // indirect
-	github.com/pion/rtp v1.8.3 // indirect
 	github.com/pion/sctp v1.8.12 // indirect
 	github.com/pion/sdp/v3 v3.0.8 // indirect
 	github.com/pion/srtp/v2 v2.0.18 // indirect
@@ -88,13 +95,10 @@ require (
 	go.uber.org/mock v0.4.0 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
 	golang.org/x/crypto v0.21.0 // indirect
-	golang.org/x/exp v0.0.0-20240314144324-c7f7c6466f7f // indirect
 	golang.org/x/mod v0.16.0 // indirect
-	golang.org/x/net v0.22.0 // indirect
 	golang.org/x/sync v0.6.0 // indirect
 	golang.org/x/sys v0.18.0 // indirect
 	golang.org/x/term v0.18.0 // indirect
-	golang.org/x/text v0.14.0 // indirect
 	golang.org/x/tools v0.19.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	m7s.live/plugin/ps/v4 v4.1.5 // indirect
