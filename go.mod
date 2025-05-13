@@ -10,11 +10,10 @@ require (
 	github.com/pion/rtp v1.8.3
 	github.com/pion/rtp/v2 v2.0.0
 	go.uber.org/zap v1.27.0
-	m7s.live/engine/v4 v4.15.3
 	golang.org/x/exp v0.0.0-20240314144324-c7f7c6466f7f
 	golang.org/x/net v0.22.0
 	golang.org/x/text v0.14.0
-	m7s.live/engine/v4 v4.15.2
+	m7s.live/engine/v4 v4.15.3
 	m7s.live/plugin/debug/v4 v4.0.3
 	m7s.live/plugin/edge/v4 v4.0.6
 	m7s.live/plugin/fmp4/v4 v4.0.6
@@ -44,7 +43,6 @@ require (
 	github.com/denisbrodbeck/machineid v1.0.1 // indirect
 	github.com/discoviking/fsm v0.0.0-20150126104936-f4a273feecca // indirect
 	github.com/dustin/go-humanize v1.0.1 // indirect
-	github.com/ghettovoice/gosip v0.0.0-20231227123312-6b80e2d3e6f7 // indirect
 	github.com/glebarez/go-sqlite v1.21.2 // indirect
 	github.com/glebarez/sqlite v1.11.0 // indirect
 	github.com/go-ole/go-ole v1.3.0 // indirect
@@ -57,7 +55,6 @@ require (
 	github.com/google/pprof v0.0.0-20240227163752-401108e1b7e7 // indirect
 	github.com/google/uuid v1.6.0 // indirect
 	github.com/gorilla/websocket v1.5.1 // indirect
-	github.com/husanpao/ip v0.0.0-20220711082147-73160bb611a8 // indirect
 	github.com/jinzhu/inflection v1.0.0 // indirect
 	github.com/jinzhu/now v1.1.5 // indirect
 	github.com/logrusorgru/aurora/v4 v4.0.0 // indirect
